@@ -30,5 +30,5 @@ mcc -m ./<name of the .m file you want> -a ./betweenness_centrality_mex.mexa64
 # How to run
 Run the comand as below where the syntax is binary {input tsv} {number of communities} {'original' | 'x_EBC_RA' | 'x_RA' | 'x_EBC_RA'} {relative output prefix}. A sample command is filled in
 ```
-./<binary> "test.tsv" 3 "original" "output/test"
+./<binary> "test.tsv" "original" "output/test"
 ```
